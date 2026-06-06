@@ -1,0 +1,61 @@
+pediatric-support-g4
+Copyright 2026 Alberto Freddy Hernandez Alfonso
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    https://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-------------------------------------------------------------------------------
+
+BASE MODEL ATTRIBUTION
+
+This adapter was fine-tuned on top of Gemma 4 E4B, developed by Google DeepMind,
+released under the Apache License, Version 2.0.
+
+    Model: Gemma 4 E4B Instruct
+    Developer: Google DeepMind
+    License: Apache 2.0
+    Source: https://ai.google.dev/gemma
+
+"Gemma" is a trademark of Google LLC. This project is an independent research
+initiative and is not endorsed by, affiliated with, or officially connected to
+Google LLC or Google DeepMind in any way.
+
+-------------------------------------------------------------------------------
+
+TRAINING DATA ATTRIBUTION
+
+This adapter was trained using the MedMCQA dataset (pediatric subjects subset),
+an openly available medical question answering dataset derived from AIIMS and
+NEET-PG medical entrance examinations.
+
+    Dataset: MedMCQA
+    Source: https://medmcqa.github.io
+    License: MIT License
+
+-------------------------------------------------------------------------------
+
+MEDICAL DISCLAIMER
+
+THIS SOFTWARE IS NOT A MEDICAL DEVICE AND HAS NOT BEEN APPROVED FOR CLINICAL USE.
+
+This adapter has not been validated for clinical use. It has not been benchmarked
+for diagnostic accuracy. It must not be used in any patient-facing context without
+independent clinical validation by qualified healthcare professionals.
+
+All outputs must be reviewed by a qualified healthcare professional before any
+clinical decision is made. The authors accept no liability for any decisions made
+based on model outputs.
+
+This software is intended for research and development purposes only. Its intended
+downstream use is as a foundation for a future, independently validated clinical
+decision support tool. It is not intended to replace the clinical judgment of a
+qualified healthcare professional.
