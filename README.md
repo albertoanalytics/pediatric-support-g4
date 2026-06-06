@@ -2,6 +2,10 @@
 
 A **QLoRA adapter** for **Gemma 4 E4B**, representing the first iteration of a research initiative to build offline-capable, locally-running LLMs for pediatric clinical decision support in resource-constrained clinical environments.
 
+[![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-pediatric--support--g4-blue)](https://huggingface.co/albertoanalytics/pediatric-support-g4)
+
+> 🤗 Model weights and adapter files are hosted on [Hugging Face](https://huggingface.co/albertoanalytics/pediatric-support-g4).
+
 ---
 
 ## ⚠️ Project Status: Pipeline Validation (v0.1)
