@@ -29,7 +29,7 @@ This project is grounded in a convergent body of evidence from international hea
 
 The Americas is facing an escalating tropical disease crisis with a disproportionate impact on children. In 2024, the region recorded the largest dengue epidemic since records began in 1980, with over 12.6 million cases — nearly three times more than in 2023 — including over 21,000 severe cases and more than 7,700 deaths [4]. The pediatric toll is acute: in Guatemala, 70% of dengue-related deaths occurred in children [4].
 
-Beyond dengue, neglected tropical diseases including Chagas disease, leishmaniasis, trachoma, and rabies disproportionately affect the most vulnerable populations in the Americas, with communities in remote areas facing the greatest burden and the most inequitable access to essential medicines and diagnostics [5]. Leishmaniasis alone is endemic in 15 countries in the region, with its presence directly linked to poverty and the structural conditions of remote and rural communities [6]. Early diagnosis and timely access to treatment are identified by PAHO as critical — and currently unresolved — bottlenecks in disease elimination [5].
+Beyond dengue, neglected tropical diseases including Chagas disease, leishmaniasis, trachoma, and rabies disproportionately affect the most vulnerable populations in the Americas, with communities in remote areas facing the greatest burden and the most inequitable access to essential medicines and diagnostics [5]. Leishmaniasis is a major regional burden: of the 11 countries that report 90% of cutaneous leishmaniasis cases globally, three are in the Americas — Brazil, Colombia, and Peru — with the disease endemic across 18 countries in the region. Its presence is directly linked to poverty and the structural conditions of remote and rural communities. [6]. Early diagnosis and timely access to treatment are identified by PAHO as critical — and currently unresolved — bottlenecks in disease elimination [5].
 
 ### Health workforce scarcity in the region
 
@@ -49,7 +49,7 @@ A critical feasibility question for any on-device clinical AI tool is whether th
 
 Latin America has a 72% mobile subscriber penetration rate, and smartphone adoption continues to grow steadily across the region [12]. Critically, the end user of this tool is a trained clinical specialist — a population with smartphone ownership rates significantly above the regional average. The deployment assumption is not that every patient or community member in a remote area has a capable device; it is that the clinician does.
 
-At the same time, GSMA data highlights two structural realities that directly reinforce the offline architecture. First, more than a third of mobile internet subscribers in Latin America and the Caribbean are still using 3G smartphones or feature phones [13] — a reminder that hardware capability is not uniform, and that the quantised mobile export planned for v0.4 must be optimised for the widest feasible range of devices. Second, the coverage gap affects 7% of the regional population — 44 million people — who lack mobile internet network access entirely, while a further 28% live in areas with nominal coverage they cannot reliably use [14]. In remote clinics, internet connectivity is intermittent at best. An offline, on-device architecture is therefore not only a data protection requirement — it is an operational necessity in the exact settings this project targets.
+At the same time, GSMA data highlights two structural realities that directly reinforce the offline architecture. First, more than a third of mobile internet subscribers in Latin America and the Caribbean are still using 3G smartphones or feature phones [13] — a reminder that hardware capability is not uniform, and that the quantised mobile export planned for v0.4 must be optimised for the widest feasible range of devices. Second, the coverage gap affects 7% of the regional population — 44 million people — who live in areas entirely without mobile internet network infrastructure [14]. Remote clinics serving the populations this project targets fall squarely within this coverage gap. An offline, on-device architecture is therefore not only a data protection requirement — it is an operational necessity in the exact settings this project targets.
 
 ### Institutional alignment
 
@@ -69,7 +69,7 @@ This project is aligned with the Global Initiative on Artificial Intelligence fo
 
 [5] PAHO. (2025, February 11). *Access to Critical Supplies for Neglected Diseases in the Americas.* https://www.paho.org/en/news/29-1-2025-access-critical-supplies-neglected-diseases-americas
 
-[6] PAHO. *Leishmaniasis.* https://www.paho.org/en/topics/leishmaniasis
+[6] PAHO. (2025, December). Leishmaniasis: Epidemiological Report on the Region of the Americas, No. 14. https://www.who.int/publications/i/item/PAHO-CDE-AFT-25-0029
 
 [7] PAHO. (2025, April 30). *New PAHO report reveals that 14 countries in the Americas face health worker shortages.* https://www.paho.org/en/news/30-4-2025-new-paho-report-reveals-14-countries-americas-face-health-worker-shortages
 
